@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 let config = {
-  client: "mysql2",
+  client: "mysql",
   connection: {
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USER,
